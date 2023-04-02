@@ -1,0 +1,77 @@
+footer {
+  background-color: #494949;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  color: white;
+}
+@media (max-width: 470px) {
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+}
+footer p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 470px) {
+  footer p {
+    justify-content: center;
+    margin-top: 15px;
+  }
+}
+footer .rowi {
+  margin-left: 175px;
+  padding-right: 225px;
+  padding-left: 30px;
+  justify-content: space-between;
+}
+@media (max-width: 1450px) {
+  footer .rowi {
+    margin-left: 130px;
+    padding-right: 175px;
+  }
+}
+@media (max-width: 1199.98px) {
+  footer .rowi {
+    margin-left: 60px;
+    padding-right: 105px;
+  }
+}
+@media (max-width: 991.98px) {
+  footer .rowi {
+    margin-left: 30px;
+    padding-right: 75px;
+  }
+}
+@media (max-width: 767.98px) {
+  footer .rowi {
+    margin-left: 15px;
+    padding-right: 60px;
+  }
+}
+@media (max-width: 470px) {
+  footer .rowi {
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+  }
+}
+footer .rowi li {
+  margin: 0;
+}
+footer .rowi li a i {
+  color: white;
+  font-size: 22px;
+  transition: 0.5s ease;
+}
+@media (max-width: 470px) {
+  footer .rowi li a i {
+    font-size: 25px;
+  }
+}
+footer .rowi li a:hover i {
+  transform: rotate(360deg);
+  transition: 0.5s ease;
+}
